@@ -54,7 +54,7 @@ After setting up the environment, follow these steps to run the planner and see 
 1. Launch the Rerun Viewer:
 First, open a new terminal and start the Rerun viewer. This will listen for data from the planner. If you don't have it installed, run:
 
-> ⚠️ Note on Rerun Version: To ensure compatibility, please check the rerun-cpp version specified in `cppenv/CMakeLists.txt`. Your Python rerun-sdk version must match. You can install a specific version using pip install rerun-sdk==<version>.
+> ⚠️ Note on Rerun Version: To ensure compatibility, please check the rerun-cpp version specified in `cppenv/CMakeLists.txt`. Your Python rerun-sdk version must match. You can install a specific version using pip install rerun-sdk==\<version\>.
 
 >```bash
 >pip install rerun-sdk
