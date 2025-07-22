@@ -1,0 +1,15 @@
+{
+  "name": "episodic_rrt_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i input.css -o public/output.css --watch",
+    "build:css-once": "npx @tailwindcss/cli -i input.css -o public/output.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "daisyui": "^5.0.43",
+    "tailwindcss": "^4.1.11"
+  }
+}
